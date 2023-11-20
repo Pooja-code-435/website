@@ -1,0 +1,69 @@
+.carousel-item{
+    height: 120vh;
+    min-height: 200px;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-item h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: white;
+    align-items: center;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: white;
+    align-items: center;
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,0.5);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-brand{
+    color: blueviolet;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+#about{
+    margin-top: 120px;
+}
+.img-fluid{
+    height: 100vh;
+    width: 100vw;
+}
+#services{
+    margin-top: 100px; 
+}
+.bi bi-subtract{
+    height: 100px;
+    width: 100px;
+}
+.card-body i{
+    font-size: 50px;
+}
+.fore-control{
+    width: 1200px;
+}
+.contact-section-padding .section-header h2{
+    margin-top: 100px;
+}
